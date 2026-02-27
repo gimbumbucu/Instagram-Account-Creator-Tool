@@ -25,7 +25,8 @@ def keep_alive():
     t.start()
 
 # --- [ 설정 데이터 ] ---
-TOKEN = "MTQ3NjgyMzYwODMxOTAyMTA4Ng.GLsS9N.JS6gYKQvdLgI5HK7omdsDsv_eTGkCIpPS6SuDA" # 님의 토큰 확인!
+# 주의: 아래 토큰이 정확한지 다시 한번 확인하세요!
+TOKEN = "MTQ3NjgyMzYwODMxOTAyMTA4Ng.GLsS9N.JS6gYKQvdLgI5HK7omdsDsv_eTGkCIpPS6SuDA" 
 GROUP_ID = "17253423"
 ROLE_NAME = "유저 | User"
 verify_requests = {}
@@ -125,5 +126,5 @@ async def main():
 if __name__ == "__main__":
     try:
         asyncio.run(main())
-    except:
-        pass
+    except Exception as e:
+        print(f"Error occurred: {e}")
