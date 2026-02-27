@@ -26,7 +26,7 @@ def keep_alive():
 
 # --- [ 설정 데이터 ] ---
 # 주의: 아래 토큰이 정확한지 다시 한번 확인하세요!
-TOKEN = "MTQ3NjgyMzYwODMxOTAyMTA4Ng.G9lCew.DF0cJu6sMNKffE3c2k3adlRhRAgWetWYMvr3qQ" 
+TOKEN = "MTQ3NjgyMzYwODMxOTAyMTA4Ng.GhpiJo.mCswY2uIe8VvBivDePoqO2QmIl3Hx312NVjj0Q" 
 GROUP_ID = "17253423"
 ROLE_NAME = "유저 | User"
 verify_requests = {}
