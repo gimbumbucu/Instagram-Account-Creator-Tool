@@ -1,0 +1,4 @@
+discord.py
+requests
+nest_asyncio
+flask
